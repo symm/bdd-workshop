@@ -1,0 +1,19 @@
+{
+  "name": "symm/bdd-workshop",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "phpspec/phpspec": "3.2.3"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {"psr-0": {"": "src"}}
+}
