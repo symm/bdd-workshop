@@ -10,7 +10,8 @@
     }
   ],
   "require": {
-    "phpspec/phpspec": "3.2.3"
+    "phpspec/phpspec": "3.2.3",
+    "behat/behat": "^3.3"
   },
   "config": {
     "bin-dir": "bin"
