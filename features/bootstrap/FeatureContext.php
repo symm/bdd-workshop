@@ -1,9 +1,9 @@
 <?php
 
+use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
-use PhpSpec\Exception\Example\PendingException;
 
 require_once __DIR__ . '/../../vendor/phpunit/phpunit/src/Framework/Assert/Functions.php';
 
@@ -24,12 +24,12 @@ class FeatureContext implements Context
 
     }
 
+
     /**
      * @Given there is a :arg1, which costs £:arg2
      */
     public function thereIsAWhichCostsPs($arg1, $arg2)
     {
-        assertEquals(true, true);
         throw new PendingException();
     }
 
