@@ -1,5 +1,9 @@
-all:
+all: unit story
+
+unit:
 	bin/phpspec run
+
+story:
 	bin/behat
 
 snippets:
