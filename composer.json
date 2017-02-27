@@ -12,7 +12,8 @@
   "require": {
     "phpspec/phpspec": "3.2.3",
     "behat/behat": "^3.3",
-    "moneyphp/money": "^3.0"
+    "moneyphp/money": "^3.0",
+    "phpunit/phpunit": "^6.0"
   },
   "config": {
     "bin-dir": "bin"

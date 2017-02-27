@@ -5,6 +5,8 @@ use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
 use PhpSpec\Exception\Example\PendingException;
 
+require_once __DIR__ . '/../../vendor/phpunit/phpunit/src/Framework/Assert/Functions.php';
+
 /**
  * Defines application features from the specific context.
  */
@@ -27,6 +29,7 @@ class FeatureContext implements Context
      */
     public function thereIsAWhichCostsPs($arg1, $arg2)
     {
+        assertEquals(true, true);
         throw new PendingException();
     }
 
