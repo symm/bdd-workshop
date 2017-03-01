@@ -33,35 +33,4 @@ class FeatureContext implements Context
         throw new PendingException();
     }
 
-    /**
-     * @When I add the :arg1 to the basket
-     */
-    public function iAddTheToTheBasket($arg1)
-    {
-        throw new PendingException();
-    }
-
-    /**
-     * @Then I should have :arg1 product in the basket
-     */
-    public function iShouldHaveProductInTheBasket($arg1)
-    {
-        throw new PendingException();
-    }
-
-    /**
-     * @Then the overall basket price should be £:arg1
-     */
-    public function theOverallBasketPriceShouldBePs($arg1)
-    {
-        throw new PendingException();
-    }
-
-    /**
-     * @Then I should have :arg1 products in the basket
-     */
-    public function iShouldHaveProductsInTheBasket($arg1)
-    {
-        throw new PendingException();
-    }
 }
